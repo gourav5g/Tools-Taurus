@@ -40,8 +40,8 @@ Below is a step-by-step guide to creating an automated vulnerability scanner too
 1. Save the code above in a file named `vulnerability_scanner.py`.
 2. Move the script to `/usr/local/bin` for global access:
    ```bash
-   sudo mv vulnerability_scanner.py /usr/local/bin/vulnerability_scanner
-   chmod +x /usr/local/bin/vulnerability_scanner
+   sudo mv taurus.py /usr/local/bin/vulnerability_scanner
+   chmod +x /usr/local/bin/taurus.py
    ```
 
 ---
@@ -52,7 +52,7 @@ Below is a step-by-step guide to creating an automated vulnerability scanner too
 1. Open your terminal.
 2. Run the tool using:
    ```bash
-   vulnerability_scanner
+  taurus.py
    ```
 3. Follow the prompts to either scan a URL or an IP address.
 
