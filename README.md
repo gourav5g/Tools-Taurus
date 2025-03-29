@@ -14,7 +14,7 @@ Python 3 installed on Linux.
 Install required libraries (requests, termcolor):
 pip install requests termcolor
 Installation Steps
-Save the code above in a file named vulnerability_scanner.py.
+Save the code above in a file named taurus.py.
 
 Below is a step-by-step guide to creating an automated vulnerability scanner tool using Python. The tool will feature colored output for better readability and will be designed for Linux installation.
 
@@ -37,13 +37,18 @@ Below is a step-by-step guide to creating an automated vulnerability scanner too
    ```
 
 ### Installation Steps
-1. Save the code above in a file named `vulnerability_scanner.py`.
+1. Save the code above in a file named `taurus.py`.
 2. Move the script to `/usr/local/bin` for global access:
    ```bash
-   sudo mv taurus.py /usr/local/bin/vulnerability_scanner
+   sudo mv taurus.py /usr/local/bin/taurus.py
    chmod +x /usr/local/bin/taurus.py
-   ```
+ 
 
+   ```
+If it still not run then do this -- sudo apt-get install dos2unix
+ sudo dos2unix /usr/local/bin/taurus.py
+ sudo chmod +x /usr/local/bin/taurus.py
+ NOW: Rin this naywhere in your terminal -- taurus.py
 ---
 
 ## **Step 3: Usage Tutorial**
